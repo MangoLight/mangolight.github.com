@@ -1,1 +1,176 @@
-It works...
+﻿<!DOCTYPE html> 
+<html lang="fr"> 
+	<head> 
+		<meta charset="utf-8"/>
+		<title>Revealery</title>
+		<link href="http://tools.mangolight.com/public/styles/bootstrap_mango.php?color=3366FF" rel="stylesheet"/>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="http://tools.mangolight.com/public/js/bootstrap_mango.js"></script>
+		<script type="text/javascript" src="jquery.revealery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('#run_example1').click(function(){
+					$('#album').revealery();
+					return false;
+				});
+				$('#run_example2').click(function(){
+					$('#album').revealery({
+						'beginning_delay' : 0,
+						'delay_between' : 20,
+						'duration' : 250
+					});
+					return false;
+				});
+				$('#run_example3').click(function(){
+					$('#album').revealery({
+						'beginning_delay' : 700,
+						'delay_between' : 0,
+						'duration' : 1000,
+					},function(){
+						alert('Finished');
+					});
+					return false;
+				});
+				$('#run_example4').click(function(){
+					$('body').revealery({
+					   'recursive' : true
+					});
+					return false;
+				});
+			});
+		</script>
+		<style type="text/css">
+			.thumbnails,.thumbnails li{margin:5px;}
+			.thumbnails li img{width:100%;box-shadow:0 0 10px rgba(0,0,0,0.3);}
+		</style>
+	</head>
+	<body>
+		<div class="navbar navbar-fixed-top"> 
+			<div class="navbar-inner"> 
+				<div class="container">
+					<a href="#" class="brand" id="logo">Revealery</a>
+					<div class="pull-left visible-desktop" style="margin-top:10px;">a free jQuery plugin by MangoLight</div>
+					<ul class="nav pull-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-info-sign"></i> About <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="http://www.mangolight.com" target="_blank"><i class="icon-home"></i> MangoLight.com</a></li>
+								<li><a href="http://github.com/mangolight" target="_blank"><i class="icon-github-sign"></i> MangoLight on Github</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container" id="page">
+			<div class="row">
+				<div class="span12">
+					<div class="page-header">
+						<h1 class="item fn">Revealery <small>is a jQuery plugin that reveals the children of an element in a random order</small></h1>
+					</div>
+					<h2>Introduction</h2><br/>
+					<p>Revealery is a simple jQuery plugin that makes slowly appears in a random order the children of an element.</p>
+					
+					<br/><h2>Installation</h2><br/>
+					<p>Revealery requires jQuery to be running on your site :</p>
+					<pre>&lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js&quot;&gt;&lt;/script&gt;</pre>
+					<p>So, to install Revealery, simply <a href="#" class="btn btn-primary" style="margin-top:-4px;padding:2px 8px;"><i class="icon-download-alt"></i> download it</a> and add these lines onto your code :</p>
+					<pre>&lt;script type=&quot;text/javascript&quot; src=&quot;jquery.revealery.min.js&quot;&gt;&lt;/script&gt;</pre>
+					
+					<br/><h2>Options</h2><br/>
+					<table class="table table-bordered table-striped">
+						<thead style="background:#222;color:#ddd">
+							<tr>
+								<th>Parameter name</th>
+								<th>Explanation</th>
+								<th>Default value</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>beginning_delay</td>
+								<td>Delay before starting to make elements appear (in ms)</td>
+								<td>300</td>
+							</tr>
+							<tr>
+								<td>delay_between</td>
+								<td>Delay between two apparitions (in ms)</td>
+								<td>150</td>
+							</tr>
+							<tr>
+								<td>duration</td>
+								<td>Duration of each apparition (in ms)</td>
+								<td>500</td>
+							</tr>
+							<tr>
+								<td>recursive</td>
+								<td>Apply Revealery on the children of the object</td>
+								<td>false</td>
+							</tr>
+						</tbody>
+					</table>
+					
+					<br/><h2>Examples</h2>
+					<div class="row">
+						<div class="span4">
+							<h4>Basic usage :</h4>
+							<pre>$('#album').revealery();</pre>
+							<a id="run_example1" class="btn pull-right">Run <i class="icon-arrow-right"></i></a>
+							<br/>
+							
+							<h4>With options :</h4>
+							<pre>$('#album').revealery({
+   'beginning_delay' : 0,
+   'delay_between' : 20,
+   'duration' : 250
+});</pre>
+							<a id="run_example2" class="btn pull-right">Run <i class="icon-arrow-right"></i></a>
+							<br/>
+							
+							<h4>With a callback :</h4>
+							<pre>$('#album').revealery({
+   'beginning_delay' : 700,
+   'delay_between' : 0,
+   'duration' : 1000
+},function(){
+   alert('Finished');
+});</pre>
+							<a id="run_example3" class="btn pull-right">Run <i class="icon-arrow-right"></i></a>
+						</div>
+						<div class="span8">
+							<ul id="album" class="thumbnails">
+								<li class="span2"><img src="img/1.jpg"/></li>
+								<li class="span2"><img src="img/2.jpg"/></li>
+								<li class="span2"><img src="img/3.jpg"/></li>
+								<li class="span2"><img src="img/4.jpg"/></li>
+								<li class="span2"><img src="img/5.jpg"/></li>
+								<li class="span2"><img src="img/6.jpg"/></li>
+								<li class="span2"><img src="img/7.jpg"/></li>
+								<li class="span2"><img src="img/8.jpg"/></li>
+								<li class="span2"><img src="img/9.jpg"/></li>
+								<li class="span2"><img src="img/10.jpg"/></li>
+								<li class="span2"><img src="img/11.jpg"/></li>
+								<li class="span2"><img src="img/12.jpg"/></li>
+							</ul>
+						</div>
+					</div>
+					
+					<h3>Recursive usage</h3>
+					<p>The <i>recursive</i> option allows to call Revealery for each children. The result can be a bit suprising !</p>
+					<div class="row">
+						<div class="span6">
+							<pre>$('body').revealery({
+   'recursive' : true
+});</pre>
+						</div>
+						<div class="span6 centered">
+							<br/>
+							<a id="run_example4" class="btn">Run Revealery recursively <i class="icon-arrow-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer><a href="http://www.mangolight.com" target="_blank">&copy; Agence Web MangoLight <img src="http://www.mangolight.com/public/img/logo_small.png"/></a><a href="#" class="pull-right scrollTop" style="font-size:19px;margin-right:7px;cursor:pointer;"><i class="icon-arrow-up"></i></a></footer>
+	</body>
+</html>
