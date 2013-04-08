@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="420" width="1500" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs>
+  <linearGradient id="linearGradient3816" x1="14.714" gradientUnits="userSpaceOnUse" y1="25.576" gradientTransform="translate(-0.71428572,837.42857)" x2="913.86" y2="260.58">
+   <stop stop-color="#250535" offset="0"/>
+   <stop stop-color="#5a136d" offset="1"/>
+  </linearGradient>
+  <clipPath id="clipPath4260" clipPathUnits="userSpaceOnUse">
+   <rect stroke-dasharray="none" rx="65.942" ry="79.734" height="697.1" width="697.1" stroke="#000" stroke-miterlimit="4" y="334.38" x="22.307" stroke-width="3" fill="url(#linearGradient4264)"/>
+  </clipPath>
+  <clipPath id="clipPath4222" clipPathUnits="userSpaceOnUse">
+   <rect fill-opacity="0.76695" rx="62.877" ry="76.294" height="697.14" width="696.07" stroke-miterlimit="4" y="332.36" x="24.286" stroke-width="0" fill="#F00"/>
+  </clipPath>
+  <clipPath id="clipPath4260-0" clipPathUnits="userSpaceOnUse">
+   <rect stroke-dasharray="none" rx="65.942" ry="79.734" height="697.1" width="697.1" stroke="#000" stroke-miterlimit="4" y="334.38" x="22.307" stroke-width="3" fill="url(#linearGradient4264)"/>
+  </clipPath>
+  <clipPath id="clipPath4260-8" clipPathUnits="userSpaceOnUse">
+   <rect stroke-dasharray="none" rx="65.942" ry="79.734" height="697.1" width="697.1" stroke="#000" stroke-miterlimit="4" y="334.38" x="22.307" stroke-width="3" fill="url(#linearGradient4264)"/>
+  </clipPath>
+  <clipPath id="clipPath4260-8-0" clipPathUnits="userSpaceOnUse">
+   <rect stroke-dasharray="none" rx="65.942" ry="79.734" height="697.1" width="697.1" stroke="#000" stroke-miterlimit="4" y="334.38" x="22.307" stroke-width="3" fill="url(#linearGradient4264)"/>
+  </clipPath>
+  <clipPath id="clipPath4260-8-02" clipPathUnits="userSpaceOnUse">
+   <rect stroke-dasharray="none" rx="65.942" ry="79.734" height="697.1" width="697.1" stroke="#000" stroke-miterlimit="4" y="334.38" x="22.307" stroke-width="3" fill="url(#linearGradient4264)"/>
+  </clipPath>
+  <clipPath id="clipPath4260-8-02-5" clipPathUnits="userSpaceOnUse">
+   <rect stroke-dasharray="none" rx="65.942" ry="79.734" height="697.1" width="697.1" stroke="#000" stroke-miterlimit="4" y="334.38" x="22.307" stroke-width="3" fill="url(#linearGradient4264)"/>
+  </clipPath>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g stroke-width="0" stroke-miterlimit="4" transform="matrix(2.093025,0,0,2.0353213,-27.72632,-1707.2132)">
+  <rect height="216.43" width="745.71" y="838.36" x="1.5145E-8" fill="url(#linearGradient3816)"/>
+  <path d="M55.372,546.63,830.05,47.681,1162.6,333.08,953.29,751.31,691.47,1029.9z" clip-path="url(#clipPath4260)" fill-opacity="0.05668018" transform="translate(111.89605,146.91374)" fill="#FFF"/>
+  <path d="M198.8,1375.1,337.42,1018.7,375.13,552.59-40.004,412.26-571.89,1164.7z" clip-path="url(#clipPath4222)" fill-opacity="0.1012146" transform="translate(-181.852,247.48194)" fill="#FFF"/>
+  <path d="M55.372,546.63,830.05,47.681,1162.6,333.08,953.29,751.31,691.47,1029.9z" clip-path="url(#clipPath4260-0)" fill-opacity="0.05668018" transform="matrix(0.43641177,-0.89974706,0.89974706,0.43641177,-597.83531,905.63962)" fill="#FFF"/>
+  <path d="M55.372,546.63,830.05,47.681,1162.6,333.08,953.29,751.31,691.47,1029.9z" clip-path="url(#clipPath4260-8)" fill-opacity="0.05668018" transform="matrix(0.97172502,-0.2361154,0.2361154,0.97172502,24.637506,493.38482)" fill="#FFF"/>
+  <path d="M55.372,546.63,830.05,47.681,1162.6,333.08,953.29,751.31,691.47,1029.9z" clip-path="url(#clipPath4260-8-0)" fill-opacity="0.05668018" transform="matrix(0.97172502,-0.2361154,0.2361154,0.97172502,-791.84783,358.62767)" fill="#FFF"/>
+  <path d="M55.372,546.63,830.05,47.681,1162.6,333.08,953.29,751.31,691.47,1029.9z" clip-path="url(#clipPath4260-8-02)" fill-opacity="0.05668018" transform="matrix(0.53400546,0.89951866,-0.49772417,1.0342363,459.22284,260.5234)" fill="#FFF"/>
+  <path d="M55.372,546.63,830.05,47.681,1162.6,333.08,953.29,751.31,691.47,1029.9z" clip-path="url(#clipPath4260-8-02-5)" fill-opacity="0.05668018" transform="matrix(0.87485375,-0.57750169,1.0471489,0.47050771,-194.40138,803.78242)" fill="#FFF"/>
+ </g>
+</svg>

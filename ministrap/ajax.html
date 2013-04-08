@@ -1,0 +1,11 @@
+I'm loaded dynamically using ajax.<br/>
+<a class="btn blue" href="ajax.html" data-modal="ajax" data-title="Ajax Modal">Open another modal</a><br/><br/>
+<div class="row">
+    <img class="full-width ajax-modal-img" src="img/slider1.jpg"/>
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('[data-modal]').miniModal();
+        $('.ajax-modal-img').last().addClass('span'+Math.floor(Math.random()*12)).attr('src','img/slider'+(Math.floor(Math.random()*3)+1)+'.jpg');
+    });
+</script>
