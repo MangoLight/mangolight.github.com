@@ -228,7 +228,7 @@ or
 					<h2 id="dropdown" class="header">Dropdown</h2>
 					The dropdown is a small jQuery plugin helping you to create menus when clicking an element.<br/>
 					If you want to create a dropdown link, add <code>data-dropdown</code> with the reference to your dropdown list.<br/>
-					It is also used by default to improve usablility of select elements.<br/>
+					It can also used on select elements in order to improve their usablility, you just have to add the class <code>.dropdown</code>.<br/>
 					
 					<br/>
 					<u>Settings</u> :
@@ -298,8 +298,8 @@ or
 &lt;/ul&gt;</pre>
 						</div>
 						<div id="tab_dropdown3">
-							Automatic dropdown from select element.<br/>
-							<select name="birthdate_month">
+							Dropdown for a select element.<br/>
+							<select name="birthdate_month" class="dropdown">
 								<option value="1">January</option>
 								<option value="2">February</option>
 								<option value="3">March</option>
@@ -313,7 +313,7 @@ or
 								<option value="11">November</option>
 								<option value="12">December</option>
 							</select>
-							<pre>&lt;select name=&quot;birthdate_month&quot;&gt;
+							<pre>&lt;select name=&quot;birthdate_month&quot; class=&quot;dropdown&quot;&gt;
 	&lt;option value=&quot;1&quot;&gt;January&lt;/option&gt;
 	&lt;option value=&quot;2&quot;&gt;February&lt;/option&gt;
 	&lt;option value=&quot;3&quot;&gt;March&lt;/option&gt;
@@ -422,14 +422,12 @@ or
         						<div class="modal-content">Test hello</div>
         						<div class="modal-footer"><input type="button" class="btn" value="Cancel" onclick="javascript:$('#modal_target1').trigger('close');"/> <input type="button" class="btn blue" value="Submit" onclick="javascript:$('#modal_target1').trigger('close');"/></div>
         					</div>
-                            <pre>&lt;div id=&quot;tab_modal1&quot;&gt;
-   &lt;a class=&quot;btn&quot; href=&quot;#&quot; data-modal=&quot;#modal_target1&quot;&gt;Simple modal&lt;/a&gt;
+                            <pre>&lt;a class=&quot;btn&quot; href=&quot;#&quot; data-modal=&quot;#modal_target1&quot;&gt;Simple modal&lt;/a&gt;
    &lt;div class=&quot;modal span5&quot; id=&quot;modal_target1&quot;&gt;
       &lt;div class=&quot;modal-title&quot;&gt;&lt;h5&gt;My modal title&lt;/h5&gt; &lt;div class=&quot;close&quot;&gt;&amp;times;&lt;/div&gt;&lt;/div&gt;
       &lt;div class=&quot;modal-content&quot;&gt;Test hello&lt;/div&gt;
       &lt;div class=&quot;modal-footer&quot;&gt;&lt;input type=&quot;button&quot; class=&quot;btn&quot; value=&quot;Cancel&quot; onclick=&quot;javascript:$('#modal_target1').trigger('close');&quot;/&gt; &lt;input type=&quot;button&quot; class=&quot;btn blue&quot; value=&quot;Submit&quot; onclick=&quot;javascript:$('#modal_target1').trigger('close');&quot;/&gt;&lt;/div&gt;
-   &lt;/div&gt;
-&lt;/div&gt;</pre>
+   &lt;/div&gt;</pre>
                         </div>
                         <div id="tab_modal2">
                             <a class="btn" href="ajax.html" data-modal="ajax" data-title="Ajax Modal">Ajax modal</a>
@@ -447,7 +445,7 @@ or
 		
 		<div class="to-top"></div>
 		<div class="bottom-bar">
-			Created by Nicolas Thomas, from <a href="http://www.mangolight.com" target="_blank">MangoLight</a> Web agency.
+			Created by Nicolas Thomas, from <a href="http://www.mangolight.com" target="_blank">MangoLight Web agency</a>.
 		</div>
 
 	</body>
